@@ -1,0 +1,32 @@
+{
+  "name": "resource-request-backend",
+  "version": "1.0.0",
+  "description": "资源申请表单提交后端服务",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "mysql2": "^3.6.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "resource",
+    "request",
+    "backend",
+    "express",
+    "mysql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
